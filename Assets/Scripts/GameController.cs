@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
                 }
                 else if( currentSelectGround.State == 1 )
                 {
-                    print(2);
+                    BuildPanel._instance.Show();
                     //TODO show buildWindow or creat constructor
                 }
             }
