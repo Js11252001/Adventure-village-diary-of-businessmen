@@ -2,8 +2,6 @@
 A Indie Unity Game 
 
 
-# Title
-
 This is a game made with unity.
 
 ## Install
