@@ -16,6 +16,14 @@ download unity.
     Vegetable farm: produce once every 7 days, each produce 5 minutes of grass  
     Cotton farm: every 90 days, 50 cotton each time  
     Apple ranch: three years of growth, 180 apples per year  
+ 
+###  Building Class
+
+| Number |  ResName   | Construction  | Price |
+| :----: | :--------: | :-----------: | :---: |
+|  1001  |  HayFarm   |  GrazingFarm  |  200  |
+|  1002  | VegetableF | VegetableFarm |  300  |
+
 
 ## License
 
