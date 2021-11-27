@@ -7,6 +7,7 @@ public class GroundProperties : MonoBehaviour
     // 0  is Space  1 has  bought   2 has built
     public int state = 0;
     public int Price = 200;
+    public int GroundId = -1;
     private GameObject HasBuyRes;
     GameObject InitPrefab;
 
@@ -36,6 +37,14 @@ public class GroundProperties : MonoBehaviour
             hasBuyObj.transform.localPosition = new Vector3(0, 0.5f, 0);
             hasBuyObj.name = "HasBuy";
             InitPrefab.SetActive(false);
+        }
+        else
+        {
+            GameObject temp = transform.Find("HasBuy").gameObject;
+            if(temp != null)
+            {
+                Destroy(temp);
+            }
         }
     }
 

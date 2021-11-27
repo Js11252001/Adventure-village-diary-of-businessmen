@@ -80,6 +80,7 @@ public class BuildPanel : MonoBehaviour
     {
         HideBuildTypeList();
         HideAllBuildList();
+        GameController._instance.ui_show = false;
     }
 
     public void HideBuildTypeList()
