@@ -64,17 +64,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BuildButton.cs" />
-    <Compile Include="Assets\Scripts\BuildPanel.cs" />
-    <Compile Include="Assets\Scripts\BuyGroundWin.cs" />
-    <Compile Include="Assets\Scripts\CameraMove.cs" />
-    <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\GameDictionary.cs" />
-    <Compile Include="Assets\Scripts\GroundClass.cs" />
-    <Compile Include="Assets\Scripts\GroundProperties.cs" />
-    <Compile Include="Assets\Scripts\PlayerProp.cs" />
-    <Compile Include="Assets\Scripts\PlayerPropUI.cs" />
-    <Compile Include="Assets\Scripts\Tip.cs" />
+    <Compile Include="Assets\Scripts\Build\HayFarm.cs" />
+    <Compile Include="Assets\Scripts\Class\GroundClass.cs" />
+    <Compile Include="Assets\Scripts\Controller\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Controller\GameController.cs" />
+    <Compile Include="Assets\Scripts\Controller\GameDictionary.cs" />
+    <Compile Include="Assets\Scripts\Controller\GroundProperties.cs" />
+    <Compile Include="Assets\Scripts\Controller\PlayerProp.cs" />
+    <Compile Include="Assets\Scripts\Controller\TimeWeather.cs" />
+    <Compile Include="Assets\Scripts\UI\BuildButton.cs" />
+    <Compile Include="Assets\Scripts\UI\BuildPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\BuyGroundWin.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerPropUI.cs" />
+    <Compile Include="Assets\Scripts\UI\Tip.cs" />
     <Compile Include="Assets\Suriyun\Script\AnimatorController.cs" />
     <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\Z ! Voxel BlocksAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
